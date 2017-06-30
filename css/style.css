@@ -669,6 +669,10 @@ filter: alpha(opacity=80); /* For IE8 and earlier */
     opacity: 0.9;
     filter: alpha(opacity=80); /* For IE8 and earlier */
   }
+  #tab1 #tab2 #tab3 #tab4 {
+    visibility: hidden !important;
+    display: none !important;
+  }
 }
 
 
