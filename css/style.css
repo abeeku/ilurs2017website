@@ -644,10 +644,6 @@ opacity: 0.9;
 filter: alpha(opacity=80); /* For IE8 and earlier */
 }
 @media screen and (max-width: 768px) {
-  .counter-site {
-    visibility: hidden !important;
-    display: none !important;
-  }
   .transbox1 {
     margin: 0px;
     background-color: #ffffff;
@@ -668,10 +664,6 @@ filter: alpha(opacity=80); /* For IE8 and earlier */
     height: auto;
     opacity: 0.9;
     filter: alpha(opacity=80); /* For IE8 and earlier */
-  }
-  #tab1 #tab2 #tab3 #tab4 {
-    visibility: hidden !important;
-    display: none !important;
   }
 }
 
