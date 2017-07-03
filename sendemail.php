@@ -1,5 +1,5 @@
 <?php
-   
+
 
     session_cache_limiter( 'nocache' );
     header( 'Expires: ' . gmdate( 'r', 0 ) );
@@ -23,14 +23,14 @@
         $result = array( 'response' => 'error', 'empty'=>'name', 'message'=>'<strong>Error!</strong> Name is empty.' );
         echo json_encode($result );
         die;
-    } 
+    }
 
     if(empty($email)){
 
         $result = array( 'response' => 'error', 'empty'=>'email', 'message'=>'<strong>Error!</strong> Email is empty.' );
         echo json_encode($result );
         die;
-    } 
+    }
 
     if(empty($message)){
 
@@ -38,7 +38,7 @@
          echo json_encode($result );
          die;
     }
-    
+
 
 
     $headers  = "From: " . $name . ' <' . $email . '>' . "\r\n";
